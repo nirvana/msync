@@ -1,4 +1,4 @@
-defmodule Elixir 
+defmodule Example 
 
 IO.puts "Example module for msync uploading."
 

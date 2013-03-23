@@ -1,4 +1,4 @@
-defmodule Mix.Tasks.Nsync do
+defmodule Mix.Tasks.Msync do
   use Mix.Task
 
   @shortdoc "Nsync will upload your elixir modules."

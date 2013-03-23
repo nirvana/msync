@@ -1,8 +1,8 @@
-defmodule Nsync.Mixfile do
+defmodule Msync.Mixfile do
   use Mix.Project
 
   def project do
-    [ app: :nsync,
+    [ app: :msync,
       version: "0.0.1",
       deps: deps ]
   end

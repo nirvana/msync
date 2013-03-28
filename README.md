@@ -14,9 +14,10 @@ In the future this may support version numbers, etc.
 ### Usage
 
 Msync.run   # will upload the files in the default bucket on the local host
-Msync.run( 'www.example.com:8091', foo) # will upload files to this host in bucket foo
 
-Note that passing in the host use a charlist, not a binary!
+Msync.run( 'www.example.com:8091', 'foo', 'bar') # will upload files to this host in bucket foo with password bar
+
+**Note that passing in the host, bucket and password use a charlist, not a binary!**
 
 ### bugs
 

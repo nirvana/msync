@@ -1,4 +1,4 @@
-defmodule Example 
+defmodule Example do
 
 IO.puts "Example module for msync uploading."
 
